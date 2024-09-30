@@ -1,0 +1,54 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .left-panel,
+.right-panel {
+    flex: 1;
+    margin: 20px;
+} */
+
+.right-panel {
+    flex: 2;
+    /* Give the right panel more space */
+    margin: 20px;
+}
+
+.left-panel {
+    flex: 1;
+    margin: 20px;
+}
+
+.shift-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shift-coverage-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.graph-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-card {
+    height: 70vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

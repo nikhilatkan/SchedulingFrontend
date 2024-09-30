@@ -1,0 +1,60 @@
+.graph-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    /* Increase width to 80% of the container */
+    margin: 0 auto;
+    /* Center the card */
+}
+
+.graph-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    /* More space between header and content */
+}
+
+.graph-header h3 {
+    margin: 0 20px;
+    /* Increase spacing between title and arrows */
+}
+
+.arrow {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    /* Make the arrows bigger */
+}
+
+.arrow:hover {
+    background-color: #e0e0e0;
+}
+
+.shift-hours {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* More space between elements */
+}
+
+.hours {
+    text-align: center;
+}
+
+.hours h1 {
+    font-size: 56px;
+    /* Increase the size of the shift hours number */
+    margin: 0;
+}
+
+.hours p {
+    color: #808080;
+    margin: 0;
+}
