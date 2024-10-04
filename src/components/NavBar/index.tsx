@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
             </div>
             {location.pathname !== '/departments' && (
                 <ul className="nav-links">
-                    <li className={isActive('/') ? 'active' : ''}>
+                    <li className={isActive('/dashboard') ? 'active' : ''}>
                         <Link to="/dashboard">Dashboard</Link>
                     </li>
                     <li className={isActive('/schedule') ? 'active' : ''}>
